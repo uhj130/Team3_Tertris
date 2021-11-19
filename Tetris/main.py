@@ -306,7 +306,6 @@ def draw_window(surface, grid, score=0):
 
 def main(win):
     locked_positions = {}
-    grid = create_grid(locked_positions)
 
     changed_piece = False
     run = True
