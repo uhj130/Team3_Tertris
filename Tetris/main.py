@@ -237,7 +237,7 @@ def draw_next_shape(shape, surface):
     label = font.render("Next Shape:", True, (255, 255, 255))
 
     sx = top_left_x + play_width + 50
-    sy = top_left_y + play_height / 2 - 100
+    sy = int(top_left_y + play_height / 2 - 100)
     shape_format = shape.shape[shape.rotation % len(shape.shape)]
 
     for i, line in enumerate(shape_format):
