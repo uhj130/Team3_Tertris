@@ -190,7 +190,7 @@ def get_shape():
 
 def draw_text_middle(surface, text, size, color):
     font = pygame.font.SysFont("comicsans", size, bold=True)
-    label = font.render(text, 1, color)
+    label = font.render(text, True, color)
 
     surface.blit(label, (
     top_left_x + play_width / 2 - (label.get_width() / 2), top_left_y + play_height / 2 - (label.get_height() / 2)))
@@ -234,7 +234,7 @@ def clear_rows(grid, locked):
 
 def draw_next_shape(shape, surface):
     font = pygame.font.SysFont("comicsans", 30)
-    label = font.render("Next Shape:", 1, (255, 255, 255))
+    label = font.render("Next Shape:", True, (255, 255, 255))
 
     sx = top_left_x + play_width + 50
     sy = top_left_y + play_height / 2 - 100
@@ -274,12 +274,12 @@ def draw_window(surface, grid, score=0):
     surface.fill((0, 0, 0))
 
     font = pygame.font.SysFont('comicsans', 60)
-    label = font.render("Tetris", 1, (255, 255, 255))
+    label = font.render("Tetris", True, (255, 255, 255))
 
     surface.blit(label, (top_left_x + play_width / 2 - (label.get_width() / 2), 30))
 
     font = pygame.font.SysFont("comicsans", 30)
-    label = font.render("Score: " + str(score), 1, (255, 255, 255))
+    label = font.render("Score: " + str(score), True, (255, 255, 255))
 
     sx = top_left_x + play_width + 50
     sy = top_left_y + play_height / 2 - 100
@@ -287,7 +287,7 @@ def draw_window(surface, grid, score=0):
     surface.blit(label, (sx + 30, sy + 160))
 
     font = pygame.font.SysFont("comicsans", 30)
-    label = font.render("High Score: " + str(last_score), 1, (255, 255, 255))
+    label = font.render("High Score: " + str(last_score), True, (255, 255, 255))
 
     sx = top_left_x + play_width + 50
     sy = top_left_y + play_height / 2 - 100
