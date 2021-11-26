@@ -15,7 +15,7 @@ Please leave your feedback in the comments, star the project and follow me!
 Download Python Here: https://www.python.org/downloads/                                                                                                                             
 Downloading Pygame Tutorial: https://www.youtube.com/watch?v=AdUZArA-kZw
 
-# 사용 방법
+# 사용 방법 - Korean
 왼쪽 화살표 키: 왼쪽으로 이동
 
 오른쪽 화살표 키: 오른쪽으로 이동
