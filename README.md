@@ -14,3 +14,8 @@ Please leave your feedback in the comments, star the project and follow me!
 
 Download Python Here: https://www.python.org/downloads/                                                                                                                             
 Downloading Pygame Tutorial: https://www.youtube.com/watch?v=AdUZArA-kZw
+
+# 사용 방법
+
+# 개발 매뉴얼
+
