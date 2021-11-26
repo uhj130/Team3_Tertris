@@ -1,3 +1,4 @@
+# module
 import pygame
 import random
 
