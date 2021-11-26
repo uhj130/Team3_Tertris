@@ -16,9 +16,12 @@ Download Python Here: https://www.python.org/downloads/
 Downloading Pygame Tutorial: https://www.youtube.com/watch?v=AdUZArA-kZw
 
 # 사용 방법
-왼쪽 화살표 키: 왼쪽으로 이동 
+왼쪽 화살표 키: 왼쪽으로 이동
+
 오른쪽 화살표 키: 오른쪽으로 이동
+
 위쪽 화살표 키 , Space키 : 블럭의 모양 변경
+
 아래 화살표 키: 블럭 떨어지는 속도증가
 
 # 개발 매뉴얼
