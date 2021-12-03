@@ -304,7 +304,7 @@ def draw_window(surface, grid, score=0):
 
     draw_grid(surface, grid)
       
-      def mucic:
+      def mucic():
 music_file = (str("tetris(1)")+".mp3")
 mixer.init()
 mixer.music.set_volume(3)
