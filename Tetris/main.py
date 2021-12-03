@@ -303,6 +303,13 @@ def draw_window(surface, grid, score=0):
     pygame.draw.rect(surface, (255, 0, 0), (top_left_x, top_left_y, play_width, play_height), 4)
 
     draw_grid(surface, grid)
+      
+      def mucic:
+music_file = (str("tetris(1)")+".mp3")
+mixer.init()
+mixer.music.set_volume(3)
+mixer.music.load(music_file)
+mixer.music.play(-1)
 
 
 def main(win):
