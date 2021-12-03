@@ -4,6 +4,15 @@ import random
 
 pygame.font.init()
 
+pygame.mixer.init()                                                                                                                            
+
+pygame.mixer.music.load('tetris.mp3')                                                                                          
+
+pygame.mixer.music.play(-1)       
+
+
+
+
 # GLOBALS VARS
 s_width = 800
 s_height = 700
@@ -304,12 +313,7 @@ def draw_window(surface, grid, score=0):
 
     draw_grid(surface, grid)
      
-def mucic():
-      music_file = (str("tetris")+".mp3")
-      mixer.init()
-      mixer.music.set_volume(3)
-      mixer.music.load(music_file)
-      mixer.music.play(-1)
+
 
 
 def main(win):
